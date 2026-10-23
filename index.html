@@ -1,0 +1,560 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sharp Standards | Premium Men's Barbershop</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700;900&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ===== NAVIGATION ===== -->
+  <nav class="nav" id="nav">
+    <div class="nav__inner">
+      <a href="#hero" class="nav__logo">
+        <img src="logo.png" alt="Sharp Standards" height="120" />
+      </a>
+      <button class="nav__toggle" id="navToggle" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="nav__links" id="navLinks">
+        <li><a href="#services">Services</a></li>
+        <li><a href="https://amandagates.glossgenius.com" target="_blank" rel="noopener">Book Now</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li><a href="https://amandagates.glossgenius.com" target="_blank" rel="noopener" class="nav__cta">Reserve a Chair</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- ===== HERO ===== -->
+  <section class="hero" id="hero">
+    <div class="hero__bg"></div>
+    <div class="hero__overlay"></div>
+    <div class="hero__content">
+      <p class="hero__eyebrow">Est. 2010 &mdash; Premium Grooming</p>
+      <h1 class="hero__headline">Where Sharp Men<br />Set the Standard.</h1>
+      <p class="hero__sub">Expert cuts. Refined grooming. An experience built for men who demand the best.</p>
+      <div class="hero__actions">
+        <a href="https://amandagates.glossgenius.com" target="_blank" rel="noopener" class="btn btn--gold">Book Your Visit</a>
+        <a href="#services" class="btn btn--outline">Explore Services</a>
+      </div>
+    </div>
+    <div class="hero__scroll-hint">
+      <span>Scroll</span>
+      <div class="hero__scroll-line"></div>
+    </div>
+  </section>
+
+  <!-- ===== TAGLINE STRIP ===== -->
+  <div class="strip">
+    <div class="strip__inner">
+      <span>Precision Cuts</span>
+      <span class="strip__divider">&#9670;</span>
+      <span>Hot Towel Shaves</span>
+      <span class="strip__divider">&#9670;</span>
+      <span>Beard Sculpting</span>
+    </div>
+  </div>
+
+  <!-- ===== ABOUT ===== -->
+  <section class="about" id="about">
+    <div class="container about__grid">
+      <div class="about__visual">
+        <div class="about__img-wrap">
+          <div class="about__img-placeholder">
+            <svg viewBox="0 0 80 80" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <circle cx="40" cy="28" r="14" stroke="#C9A84C" stroke-width="1.5"/>
+              <path d="M14 72c0-14.359 11.640-26 26-26h0c14.359 0 26 11.641 26 26" stroke="#C9A84C" stroke-width="1.5"/>
+              <path d="M54 20c4 2 7 6 7 10" stroke="#C9A84C" stroke-width="1.5" stroke-linecap="round"/>
+              <path d="M62 44l6 4M18 44l-6 4" stroke="#C9A84C" stroke-width="1.5" stroke-linecap="round"/>
+            </svg>
+          </div>
+          <div class="about__badge">
+            <strong>10+</strong>
+            <span>Years Experience</span>
+          </div>
+        </div>
+      </div>
+      <div class="about__copy">
+        <p class="section-label">Our Story</p>
+        <h2 class="section-title">Crafted for the Modern Gentleman</h2>
+        <p class="about__text">Sharp Standards was founded on a single belief: every man deserves a barbershop experience that respects his time, his style, and his standards. We don't just cut hair — we sharpen confidence.</p>
+        <p class="about__text">Blending timeless technique with contemporary style. From the moment you sit in the chair to the moment you walk out, every detail is intentional.</p>
+        <div class="about__stats">
+          <div class="about__stat">
+            <strong>5★</strong>
+            <span>Average Rating</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== SERVICES ===== -->
+  <section class="services" id="services">
+    <div class="container">
+      <p class="section-label section-label--light">What We Offer</p>
+      <h2 class="section-title section-title--light">Our Services</h2>
+      <p class="services__intro">Every service is performed with precision, care, and the finest products — because you deserve nothing less.</p>
+      <div class="services__grid services__grid--menu">
+
+        <div class="service-card service-card--menu">
+          <h3 class="service-card__title">Signature Cut</h3>
+          <div class="service-card__footer">
+            <span class="service-card__price">$50</span>
+            <span class="service-card__duration">35 min</span>
+          </div>
+        </div>
+
+        <div class="service-card service-card--menu">
+          <h3 class="service-card__title">Signature Cut + Facial</h3>
+          <div class="service-card__footer">
+            <span class="service-card__price">$70</span>
+            <span class="service-card__duration">45 min</span>
+          </div>
+        </div>
+
+        <div class="service-card service-card--menu">
+          <h3 class="service-card__title">The Executive</h3>
+          <div class="service-card__footer">
+            <span class="service-card__price">$90</span>
+            <span class="service-card__duration">60 min</span>
+          </div>
+        </div>
+
+        <div class="service-card service-card--menu">
+          <h3 class="service-card__title">Signature (No Wash)</h3>
+          <div class="service-card__footer">
+            <span class="service-card__price">$45</span>
+            <span class="service-card__duration">30 min</span>
+          </div>
+        </div>
+
+        <div class="service-card service-card--menu">
+          <h3 class="service-card__title">Kids Cut</h3>
+          <div class="service-card__footer">
+            <span class="service-card__price">$35</span>
+            <span class="service-card__duration">35 min</span>
+          </div>
+        </div>
+
+        <div class="service-card service-card--menu">
+          <h3 class="service-card__title">Ear Waxing</h3>
+          <div class="service-card__footer">
+            <span class="service-card__price">$15</span>
+            <span class="service-card__duration">15 min</span>
+          </div>
+        </div>
+
+        <div class="service-card service-card--menu">
+          <h3 class="service-card__title">Nose Waxing</h3>
+          <div class="service-card__footer">
+            <span class="service-card__price">$15</span>
+            <span class="service-card__duration">15 min</span>
+          </div>
+        </div>
+
+        <div class="service-card service-card--menu">
+          <h3 class="service-card__title">Grey Blending</h3>
+          <div class="service-card__footer">
+            <span class="service-card__price">$45</span>
+            <span class="service-card__duration">25 min</span>
+          </div>
+        </div>
+
+        <div class="service-card service-card--menu">
+          <h3 class="service-card__title">Straight Razor Face Shave</h3>
+          <div class="service-card__footer">
+            <span class="service-card__price">$70</span>
+            <span class="service-card__duration">60 min</span>
+          </div>
+        </div>
+
+        <div class="service-card service-card--menu">
+          <h3 class="service-card__title">Straight Razor Head Shave</h3>
+          <div class="service-card__footer">
+            <span class="service-card__price">$65</span>
+            <span class="service-card__duration">55 min</span>
+          </div>
+        </div>
+
+        <div class="service-card service-card--menu">
+          <h3 class="service-card__title">Straight Razor Line Up</h3>
+          <div class="service-card__footer">
+            <span class="service-card__price">$35</span>
+            <span class="service-card__duration">30 min</span>
+          </div>
+        </div>
+
+        <div class="service-card service-card--menu">
+          <h3 class="service-card__title">Beard Trim</h3>
+          <div class="service-card__footer">
+            <span class="service-card__price">$20</span>
+            <span class="service-card__duration">20 min</span>
+          </div>
+        </div>
+
+        <div class="service-card service-card--menu">
+          <h3 class="service-card__title">Women's Cut</h3>
+          <div class="service-card__footer">
+            <span class="service-card__price">$55</span>
+            <span class="service-card__duration">60 min</span>
+          </div>
+        </div>
+
+        <div class="service-card service-card--menu">
+          <h3 class="service-card__title">Women's Color</h3>
+          <div class="service-card__footer">
+            <span class="service-card__price">Price Varies</span>
+            <span class="service-card__duration">60 min</span>
+          </div>
+        </div>
+
+        <div class="service-card service-card--menu">
+          <h3 class="service-card__title">Paraffin Hand Dip</h3>
+          <div class="service-card__footer">
+            <span class="service-card__price">$10</span>
+            <span class="service-card__duration">15 min</span>
+          </div>
+        </div>
+
+        <div class="service-card service-card--menu">
+          <h3 class="service-card__title">The Clean Up</h3>
+          <div class="service-card__footer">
+            <span class="service-card__price">$10</span>
+            <span class="service-card__duration">10 min</span>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== BOOKING ===== -->
+  <section class="booking" id="booking">
+    <div class="container booking__inner">
+      <div class="booking__copy">
+        <p class="section-label">Online Booking</p>
+        <h2 class="section-title">Reserve Your Chair</h2>
+        <p class="booking__text">Skip the wait. Choose your service and lock in your time — all in under 60 seconds. Walk in sharp, walk out sharper.</p>
+        <ul class="booking__perks">
+          <li>
+            <span class="booking__perk-icon">&#10003;</span>
+            Instant confirmation via email &amp; SMS
+          </li>
+          <li>
+            <span class="booking__perk-icon">&#10003;</span>
+            Easy rescheduling, no fees
+          </li>
+        </ul>
+      </div>
+      <div class="booking__widget">
+        <div class="booking-cta-box">
+          <div class="booking-cta-box__inner">
+            <svg viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg" class="booking-cta-box__icon">
+              <rect x="8" y="14" width="48" height="42" rx="4" stroke="#C9A84C" stroke-width="2"/>
+              <path d="M8 26h48" stroke="#C9A84C" stroke-width="2"/>
+              <path d="M20 8v12M44 8v12" stroke="#C9A84C" stroke-width="2" stroke-linecap="round"/>
+              <rect x="18" y="34" width="8" height="8" rx="1" fill="#C9A84C" opacity="0.3" stroke="#C9A84C" stroke-width="1.5"/>
+              <rect x="28" y="34" width="8" height="8" rx="1" stroke="#C9A84C" stroke-width="1.5"/>
+              <rect x="38" y="34" width="8" height="8" rx="1" stroke="#C9A84C" stroke-width="1.5"/>
+            </svg>
+            <h3>Book Now</h3>
+            <p>Schedule your appointment online — quick, easy, and instant confirmation.</p>
+            <a href="https://amandagates.glossgenius.com" target="_blank" rel="noopener" class="btn btn--gold">Open Booking Calendar</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ===== TESTIMONIALS ===== -->
+  <section class="testimonials" id="testimonials">
+    <div class="container">
+      <p class="section-label">Client Reviews</p>
+      <h2 class="section-title">What Our Clients Say</h2>
+      <div class="testimonials__grid">
+
+        <div class="testimonial-card">
+          <div class="testimonial-card__stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+          <p class="testimonial-card__text">"Amanda was great! I got a great haircut and loved the scalp massage. She was very professional."</p>
+          <div class="testimonial-card__author">
+            <div class="testimonial-card__avatar">SB</div>
+            <div>
+              <strong>Sean Ball</strong>
+              <span>December 8, 2025</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="testimonial-card">
+          <div class="testimonial-card__stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+          <p class="testimonial-card__text">"Amanda is great and appreciate her expertise. Thanks for everything."</p>
+          <div class="testimonial-card__author">
+            <div class="testimonial-card__avatar">A</div>
+            <div>
+              <strong>Adam</strong>
+              <span>December 24, 2025</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="testimonial-card">
+          <div class="testimonial-card__stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+          <p class="testimonial-card__text">"Not everyone takes the time to discuss what the best hair style is for your face and type of hair you have. Cowlicks have always been the bane of my existence. Amanda took the time to figure that out and provide the perfect cut. Many thanks!"</p>
+          <div class="testimonial-card__author">
+            <div class="testimonial-card__avatar">J</div>
+            <div>
+              <strong>Jon</strong>
+              <span>March 6, 2026</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="testimonial-card">
+          <div class="testimonial-card__stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+          <p class="testimonial-card__text">"Wonderful experience! Flexible hours and days to accommodate my schedule. Back to great, old fashion service that is missing from the big corporate salons all over town. I feel like I'm her most important customer every time."</p>
+          <div class="testimonial-card__author">
+            <div class="testimonial-card__avatar">B</div>
+            <div>
+              <strong>Bill</strong>
+              <span>February 5, 2026</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="testimonial-card">
+          <div class="testimonial-card__stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+          <p class="testimonial-card__text">"Amanda has done a fantastic job at cutting my hair. She helps me decide what style I like and that works best for my hair. I would highly recommend."</p>
+          <div class="testimonial-card__author">
+            <div class="testimonial-card__avatar">TM</div>
+            <div>
+              <strong>Tyler Mars</strong>
+              <span>December 15, 2025</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="testimonial-card">
+          <div class="testimonial-card__stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+          <p class="testimonial-card__text">"Amanda is great! She gives great haircuts, is very friendly and easygoing, and interesting to talk to. She sets the bar high for quality haircuts. And I always leave the haircut in a better mood. I can't recommend her enough!"</p>
+          <div class="testimonial-card__author">
+            <div class="testimonial-card__avatar">D</div>
+            <div>
+              <strong>Dallas</strong>
+              <span>February 1, 2026</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="testimonial-card">
+          <div class="testimonial-card__stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+          <p class="testimonial-card__text">"Great service. Professional and personable. I highly recommend Amanda!"</p>
+          <div class="testimonial-card__author">
+            <div class="testimonial-card__avatar">RB</div>
+            <div>
+              <strong>Ron B</strong>
+              <span>December 17, 2025</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="testimonial-card">
+          <div class="testimonial-card__stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+          <p class="testimonial-card__text">"Amanda's great! Best haircut in KC!"</p>
+          <div class="testimonial-card__author">
+            <div class="testimonial-card__avatar">C</div>
+            <div>
+              <strong>Christian</strong>
+              <span>December 12, 2025</span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== CONTACT ===== -->
+  <section class="contact" id="contact">
+    <div class="container contact__grid">
+      <div class="contact__info">
+        <p class="section-label section-label--light">Get In Touch</p>
+        <h2 class="section-title section-title--light">Contact Us</h2>
+        <p class="contact__text">Have a question, want to book a group event, or interested in wholesale products? We'd love to hear from you.</p>
+        <div class="contact__details">
+          <div class="contact__detail">
+            <div class="contact__detail-icon">
+              <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M12 2C8.134 2 5 5.134 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.866-3.134-7-7-7z" stroke="#C9A84C" stroke-width="1.5"/>
+                <circle cx="12" cy="9" r="2.5" stroke="#C9A84C" stroke-width="1.5"/>
+              </svg>
+            </div>
+            <div>
+              <strong>Find Us</strong>
+              <span>8650 W 95th Street<br/>Overland Park, KS 66212</span>
+            </div>
+          </div>
+          <div class="contact__detail">
+            <div class="contact__detail-icon">
+              <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M6.62 10.79a15.053 15.053 0 006.59 6.59l2.2-2.2a1 1 0 011.01-.24c1.12.37 2.33.57 3.58.57a1 1 0 011 1V20a1 1 0 01-1 1C10.61 21 3 13.39 3 4a1 1 0 011-1h3.5a1 1 0 011 1c0 1.25.2 2.46.57 3.58a1 1 0 01-.25 1.01l-2.2 2.2z" stroke="#C9A84C" stroke-width="1.5" stroke-linecap="round"/>
+              </svg>
+            </div>
+            <div>
+              <strong>Call Us</strong>
+              <span>913-634-4684</span>
+            </div>
+          </div>
+          <div class="contact__detail">
+            <div class="contact__detail-icon">
+              <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <rect x="3" y="5" width="18" height="14" rx="2" stroke="#C9A84C" stroke-width="1.5"/>
+                <path d="M3 7l9 6 9-6" stroke="#C9A84C" stroke-width="1.5"/>
+              </svg>
+            </div>
+            <div>
+              <strong>Email Us</strong>
+              <span>hello@sharpstandards.com</span>
+            </div>
+          </div>
+          <div class="contact__detail">
+            <div class="contact__detail-icon">
+              <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <circle cx="12" cy="12" r="9" stroke="#C9A84C" stroke-width="1.5"/>
+                <path d="M12 7v5l3 3" stroke="#C9A84C" stroke-width="1.5" stroke-linecap="round"/>
+              </svg>
+            </div>
+            <div>
+              <strong>Hours</strong>
+              <span>Mon–Sat: 9am – 8pm<br/>Sunday: 10am – 5pm</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="contact__form-wrap">
+        <form class="contact__form" id="contactForm" novalidate>
+          <h3 class="contact__form-title">Send a Message</h3>
+          <div class="form-row">
+            <div class="form-group">
+              <label for="firstName">First Name</label>
+              <input type="text" id="firstName" name="firstName" placeholder="Marcus" required />
+            </div>
+            <div class="form-group">
+              <label for="lastName">Last Name</label>
+              <input type="text" id="lastName" name="lastName" placeholder="Johnson" required />
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="email">Email Address</label>
+            <input type="email" id="email" name="email" placeholder="marcus@email.com" required />
+          </div>
+          <div class="form-group">
+            <label for="phone">Phone Number</label>
+            <input type="tel" id="phone" name="phone" placeholder="(913) 555-0100" />
+          </div>
+          <div class="form-group">
+            <label for="subject">Subject</label>
+            <select id="subject" name="subject">
+              <option value="">Select a topic...</option>
+              <option value="booking">Booking Inquiry</option>
+              <option value="products">Product Questions</option>
+              <option value="event">Group / Event Booking</option>
+              <option value="wholesale">Wholesale Inquiry</option>
+              <option value="other">Other</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="4" placeholder="Tell us how we can help..." required></textarea>
+          </div>
+          <button type="submit" class="btn btn--gold btn--full">Send Message</button>
+          <p class="form__disclaimer">We typically respond within 24 hours.</p>
+          <div class="form__success" id="formSuccess">
+            <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <circle cx="12" cy="12" r="9" stroke="#C9A84C" stroke-width="1.5"/>
+              <path d="M8 12l3 3 5-5" stroke="#C9A84C" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+            <p>Message sent! We'll be in touch shortly.</p>
+          </div>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="footer">
+    <div class="container footer__inner">
+      <div class="footer__brand">
+        <a href="#hero" class="nav__logo">
+          <img src="logo.png" alt="Sharp Standards" height="120" />
+        </a>
+        <p class="footer__tagline">Where sharp men set the standard.</p>
+        <div class="footer__socials">
+          <a href="#" aria-label="Instagram" class="footer__social">
+            <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <rect x="3" y="3" width="18" height="18" rx="5" stroke="currentColor" stroke-width="1.5"/>
+              <circle cx="12" cy="12" r="4" stroke="currentColor" stroke-width="1.5"/>
+              <circle cx="17.5" cy="6.5" r="1" fill="currentColor"/>
+            </svg>
+          </a>
+          <a href="#" aria-label="Facebook" class="footer__social">
+            <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3V2z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+          </a>
+          <a href="#" aria-label="TikTok" class="footer__social">
+            <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M9 12a4 4 0 104 4V4a5 5 0 005 5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+          </a>
+          <a href="#" aria-label="Google" class="footer__social">
+            <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M21.8 12.2c0-.7-.1-1.4-.2-2H12v3.8h5.5a4.7 4.7 0 01-2 3.1v2.5h3.3c1.9-1.8 3-4.4 3-7.4z" stroke="currentColor" stroke-width="1.3"/>
+              <path d="M12 22c2.7 0 5-.9 6.7-2.4l-3.3-2.5c-.9.6-2 1-3.4 1-2.6 0-4.8-1.8-5.6-4.1H3v2.6A10 10 0 0012 22z" stroke="currentColor" stroke-width="1.3"/>
+              <path d="M6.4 14c-.2-.6-.3-1.3-.3-2s.1-1.4.3-2V7.4H3A10 10 0 002 12c0 1.6.4 3.1 1 4.6L6.4 14z" stroke="currentColor" stroke-width="1.3"/>
+              <path d="M12 5.9c1.5 0 2.8.5 3.8 1.5l2.9-2.9C16.9 2.9 14.6 2 12 2A10 10 0 003 7.4L6.4 10c.8-2.3 3-4.1 5.6-4.1z" stroke="currentColor" stroke-width="1.3"/>
+            </svg>
+          </a>
+        </div>
+      </div>
+      <div class="footer__links">
+        <div class="footer__col">
+          <h4>Services</h4>
+          <ul>
+            <li><a href="#services">Signature Cut</a></li>
+            <li><a href="#services">The Executive</a></li>
+            <li><a href="#services">Straight Razor Shave</a></li>
+            <li><a href="#services">Beard Trim</a></li>
+            <li><a href="#services">Women's Services</a></li>
+          </ul>
+        </div>
+<div class="footer__col">
+          <h4>Visit Us</h4>
+          <address>
+            8650 W 95th Street<br/>
+            Overland Park, KS 66212<br/><br/>
+            <a href="tel:+19136344684">913-634-4684</a><br/>
+            <a href="mailto:hello@sharpstandards.com">hello@sharpstandards.com</a>
+          </address>
+        </div>
+      </div>
+    </div>
+    <div class="footer__bottom">
+      <div class="container footer__bottom-inner">
+        <p>&copy; 2024 Sharp Standards. All rights reserved.</p>
+        <div class="footer__legal">
+          <a href="#">Privacy Policy</a>
+          <a href="#">Terms of Service</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="main.js"></script>
+</body>
+</html>
